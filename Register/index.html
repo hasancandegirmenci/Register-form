@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo-register.png" type="image/logo-icon"> <!-- fav icon  -->
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="register">
+            <h1>Kayıt Olunuz</h1>
+
+            <div class="register-group">
+                <label for="ad">Adınızı Giriniz</label>
+                <input type="text" placeholder="İsim" name="ad" id="ad">
+                <div class="register-group">
+                    <label for="soyad">Soyadınızı Giriniz</label>
+                    <input type="text" placeholder="Soyisim" name="soyad" id="soyad">
+                </div>
+                <div class="register-group">
+                    <label for="email">Email Adresinizi Giriniz</label>
+                    <input type="email" placeholder="Email" name="email" id="email">
+                </div>
+                <div class="register-group">
+                    <label for="password">Şifrenizi Giriniz</label>
+                    <input type="password" placeholder="Şifre" name="password" id="password">
+                </div>
+                <div class="register-group">
+                    <label for="password2">Şifrenizi Tekrar Giriniz</label>
+                    <input type="password" placeholder="Şifrenizi Tekrar Giriniz" name="password2" id="password2">
+                </div>
+                <div class="register-group">
+                    <label for="phone">Telefon Numaranızı Giriniz</label>
+                    <input type="text" placeholder="(XXX) XXX XX XX" name="phone" id="phone">
+                </div>
+                
+                <div class="gender-groupp">
+                    
+                    
+                    <label style="margin-left:-7px; margin-right:35px; margin-top:15px;"for="cinsiyet">Cinsiyet</label>
+
+                   
+                    <label style="margin-top:15px" for="erkek">Erkek</label>
+                    <input style="margin-right:35px," type="radio" id="erkek" name="cinsiyet" value="erkek">
+                    
+                    <label style="margin-left:35px; margin-top:15px;" for="kadin">Kadın</label>
+                    <input type="radio" id="kadin" name="cinsiyet" value="kadin">
+                   
+                </div>
+                <div class="register-group">
+                    <label for="dogumtarihi">Doğum Tarihinizi Giriniz</label>
+                    <input type="date" name="dogumtarihi" id="dogumtarihi">
+                    
+                </div>
+                <div class="register-group">
+                    <label for="meslek">Mesleğinizi Giriniz</label>
+                    <input type="text" placeholder="Meslek" name="meslek" id="meslek">
+                </div>
+                <div class="btn">
+                    <button type="submit">Kayıt Ol</button>
+
+                    <button><a href="login.html"></a>Giriş Yap</button>
+                    <button type="reset"> Temizle</button>
+                </div>
+
+            </div>
+            
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
